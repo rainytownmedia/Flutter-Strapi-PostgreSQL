@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_collection_boxes",
+  "info": {
+    "name": "box",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Clothing"
+    },
+    "numberOfItems": {
+      "type": "string",
+      "required": true,
+      "default": "34 Items"
+    },
+    "detailsLink": {
+      "type": "string",
+      "required": true,
+      "default": "/shop"
+    }
+  }
+}

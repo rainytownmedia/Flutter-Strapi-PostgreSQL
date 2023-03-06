@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "galleries",
+  "info": {
+    "name": "gallery",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imageList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "gallery.image"
+    },
+    "pageBannerTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Gallery"
+    }
+  }
+}

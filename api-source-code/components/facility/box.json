@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_facility_boxes",
+  "info": {
+    "name": "box",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string",
+      "required": true,
+      "default": "fas fa-truck"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Free Shipping"
+    },
+    "subTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Orders over $200"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "feedbacks",
+  "info": {
+    "name": "feedback",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Trusted Customer Feedback"
+    },
+    "feedbackList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "feedback.box"
+    },
+    "bgImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

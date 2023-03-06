@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_footer_widget_single_footer_widgets",
+  "info": {
+    "name": "singleFooterWidget",
+    "icon": "arrow-alt-circle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer-widget.widget-title"
+    },
+    "widgetMenuList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer-widget.menu-list"
+    },
+    "widgetSocial": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer-widget.social"
+    }
+  }
+}

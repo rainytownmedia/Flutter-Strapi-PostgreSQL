@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_collection_ads_ads",
+  "info": {
+    "name": "ads",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "textNo1": {
+      "type": "string",
+      "required": true,
+      "default": "SUMMER"
+    },
+    "textNo2": {
+      "type": "string",
+      "required": true,
+      "default": "SALE"
+    },
+    "textNo3": {
+      "type": "string",
+      "required": true,
+      "default": "UPTO 50% OFF"
+    },
+    "btnText": {
+      "type": "string",
+      "required": true,
+      "default": "SHOP NOW"
+    },
+    "btnIcon": {
+      "type": "string",
+      "required": true,
+      "default": "fas fa-store"
+    },
+    "btnLink": {
+      "type": "string",
+      "required": true,
+      "default": "/shop"
+    }
+  }
+}

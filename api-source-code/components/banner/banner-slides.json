@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_banner_banner_slides",
+  "info": {
+    "name": "Banner Slides",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "required": true,
+      "default": "New Arrival!"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "SUMMER COLLECTION "
+    },
+    "discount": {
+      "type": "string",
+      "default": "-50%"
+    },
+    "btnText": {
+      "type": "string",
+      "required": true,
+      "default": "SHOP NOW"
+    },
+    "btnLink": {
+      "type": "string",
+      "required": true,
+      "default": "/shop"
+    },
+    "btnIcon": {
+      "type": "string",
+      "required": true,
+      "default": "fas fa-store"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

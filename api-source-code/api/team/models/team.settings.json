@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "teams",
+  "info": {
+    "name": "team",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string",
+      "required": true,
+      "default": "People Behind rainytownmedia"
+    },
+    "teamMemberList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "team-member.member"
+    }
+  }
+}

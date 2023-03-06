@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "main_banners",
+  "info": {
+    "name": "Main Banner",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mainBannerSlides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banner.banner-slides"
+    },
+    "shapeVisible": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

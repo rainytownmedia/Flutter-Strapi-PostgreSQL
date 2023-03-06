@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "facilities",
+  "info": {
+    "name": "facility"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "facilityBox": {
+      "type": "component",
+      "repeatable": true,
+      "component": "facility.box"
+    }
+  }
+}

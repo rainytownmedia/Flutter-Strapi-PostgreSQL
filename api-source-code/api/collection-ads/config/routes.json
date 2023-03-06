@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/collection-ads",
+      "handler": "collection-ads.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/collection-ads",
+      "handler": "collection-ads.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/collection-ads",
+      "handler": "collection-ads.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

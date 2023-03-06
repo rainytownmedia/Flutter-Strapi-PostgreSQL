@@ -1,0 +1,65 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "name": "footer",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "desc": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+      "required": true
+    },
+    "locationLink": {
+      "type": "string",
+      "required": false
+    },
+    "phoneNumber": {
+      "type": "string",
+      "required": false,
+      "default": "(+123) 456-7898"
+    },
+    "singleFooterWidgetList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer-widget.single-footer-widget"
+    },
+    "copyrightText": {
+      "type": "string",
+      "required": true,
+      "default": "All Rights Reserved By"
+    },
+    "copyrightAuthor": {
+      "type": "string",
+      "required": true,
+      "default": "EnvyTheme"
+    },
+    "paymentType": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

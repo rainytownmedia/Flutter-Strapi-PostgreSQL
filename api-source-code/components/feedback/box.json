@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_feedback_boxes",
+  "info": {
+    "name": "box",
+    "icon": "asterisk",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "Jasica Lora"
+    },
+    "designation": {
+      "type": "string",
+      "default": "TV Model",
+      "required": true
+    },
+    "desc": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

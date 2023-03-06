@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_faq_faq_sidebars",
+  "info": {
+    "name": "faqSidebar",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Help Center"
+    },
+    "link": {
+      "type": "string",
+      "required": true,
+      "default": "/faq"
+    }
+  }
+}

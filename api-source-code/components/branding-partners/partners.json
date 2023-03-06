@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_branding_partners_partners",
+  "info": {
+    "name": "partner",
+    "icon": "anchor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "partnerImg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "link": {
+      "type": "string",
+      "default": "/shop"
+    }
+  }
+}

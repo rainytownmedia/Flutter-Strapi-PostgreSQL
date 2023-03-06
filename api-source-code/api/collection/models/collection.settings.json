@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "collections",
+  "info": {
+    "name": "collection"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "collectionBox": {
+      "type": "component",
+      "repeatable": true,
+      "component": "collection.box"
+    }
+  }
+}

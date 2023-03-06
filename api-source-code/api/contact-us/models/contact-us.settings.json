@@ -1,0 +1,59 @@
+{
+  "kind": "singleType",
+  "collectionName": "contactuses",
+  "info": {
+    "name": "Contact Us",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageBannerTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Contact Us"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Howdy! Tell Us About Your Thinking"
+    },
+    "desc": {
+      "type": "string",
+      "required": true,
+      "default": "Contact us with your details & ready to start. Lets provide us a message & contact us!"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "contactInformation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contact-us.contact-info"
+    },
+    "social": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contact-us.follow-us"
+    },
+    "contactInfoHide": {
+      "type": "boolean",
+      "default": false
+    },
+    "followUsHide": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
