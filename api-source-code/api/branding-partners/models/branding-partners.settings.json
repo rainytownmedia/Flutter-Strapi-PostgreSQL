@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "branding_partners",
+  "info": {
+    "name": "Branding Partners",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Our Trusted Branding Partners"
+    },
+    "partnerList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "branding-partners.partners"
+    }
+  }
+}

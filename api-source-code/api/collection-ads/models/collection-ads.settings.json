@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "collection_ads",
+  "info": {
+    "name": "Collection Ads",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ads": {
+      "type": "component",
+      "repeatable": true,
+      "component": "collection-ads.ads"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_contact_us_contact_infos",
+  "info": {
+    "name": "contactInfo",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string",
+      "required": true,
+      "default": "fas fa-map-marker-alt"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

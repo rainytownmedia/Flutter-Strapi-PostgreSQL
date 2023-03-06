@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_contact_us_followuses",
+  "info": {
+    "name": "followUs",
+    "icon": "ban"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "Facebook"
+    },
+    "link": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

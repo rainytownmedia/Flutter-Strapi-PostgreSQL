@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "frequently_asked_questions",
+  "info": {
+    "name": "Frequently Asked Questions",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageBannerTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Frequently Asked Questions"
+    },
+    "sidebar": {
+      "type": "component",
+      "repeatable": true,
+      "component": "faq.faq-sidebar"
+    },
+    "accordionList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "faq.faq-accordion"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_faq_faq_accordions",
+  "info": {
+    "name": "faqAccordion",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "desc": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

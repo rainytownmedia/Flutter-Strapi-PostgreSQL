@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "new_arrival_products",
+  "info": {
+    "name": "New Arrival Products",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "New Arrival Products"
+    },
+    "desc": {
+      "type": "text"
+    }
+  }
+}

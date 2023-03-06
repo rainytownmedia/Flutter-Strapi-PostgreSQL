@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_footer_widget_widget_titles",
+  "info": {
+    "name": "widgetTitle",
+    "icon": "angle-double-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

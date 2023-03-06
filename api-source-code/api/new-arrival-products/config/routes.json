@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/new-arrival-products",
+      "handler": "new-arrival-products.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/new-arrival-products",
+      "handler": "new-arrival-products.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/new-arrival-products",
+      "handler": "new-arrival-products.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "kind": "singleType",
+  "collectionName": "not_founds",
+  "info": {
+    "name": "Not Found",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Page Doesn't Exist"
+    },
+    "desc": {
+      "type": "text",
+      "required": true,
+      "default": "The page you are looking for might have been removed had its name changed or is temporarily unavailable."
+    },
+    "btnIcon": {
+      "type": "string",
+      "required": true,
+      "default": "far fa-hand-point-left"
+    },
+    "btnText": {
+      "type": "string",
+      "required": true,
+      "default": "Back to Home"
+    },
+    "btnLink": {
+      "type": "string",
+      "required": true,
+      "default": "/"
+    }
+  }
+}

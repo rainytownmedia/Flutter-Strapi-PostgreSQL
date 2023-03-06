@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_funfacts_funfacts",
+  "info": {
+    "name": "funfact",
+    "icon": "american-sign-language-interpreting"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string",
+      "required": true,
+      "default": "fas fa-shopping-bag"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Products for sale"
+    },
+    "number": {
+      "type": "string",
+      "required": true,
+      "default": "25.6K"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "terms_conditions",
+  "info": {
+    "name": "Terms & Conditions",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageBannerTitle": {
+      "type": "string",
+      "default": "Terms & Conditions",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

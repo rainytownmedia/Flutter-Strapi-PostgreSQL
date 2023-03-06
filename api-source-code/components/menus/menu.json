@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_menus_menus",
+  "info": {
+    "name": "Menu",
+    "icon": "braille",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "menuName": {
+      "type": "string",
+      "required": true,
+      "default": "Home"
+    },
+    "menuLink": {
+      "type": "string",
+      "required": true,
+      "default": "/"
+    },
+    "dropdowns": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menus.dropdown"
+    }
+  }
+}

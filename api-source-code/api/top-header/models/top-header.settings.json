@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "top_headers",
+  "info": {
+    "name": "Top Header",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Free Delivery Over $35 to Most of USA*"
+    },
+    "socialList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "top-header-social.social"
+    },
+    "phoneNumber": {
+      "type": "string",
+      "default": "+1234 - 456 - 7890",
+      "required": false
+    }
+  }
+}

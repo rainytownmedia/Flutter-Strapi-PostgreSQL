@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_review_product_reviews",
+  "info": {
+    "name": "Product Review",
+    "icon": "star-of-life",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "authorImg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "ratings": {
+      "type": "integer",
+      "default": 4,
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "default": "James Anderson",
+      "required": true
+    },
+    "feedback": {
+      "type": "text",
+      "default": "Very well built theme, couldn't be happier with it. Can't wait for future updates to see what else they add in.",
+      "required": true
+    }
+  }
+}

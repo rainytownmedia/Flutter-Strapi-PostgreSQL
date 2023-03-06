@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "best_selling_products",
+  "info": {
+    "name": "Best Selling Products",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Best Selling Products"
+    },
+    "desc": {
+      "type": "text",
+      "required": false
+    }
+  }
+}

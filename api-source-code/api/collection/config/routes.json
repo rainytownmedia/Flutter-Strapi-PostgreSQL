@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/collection",
+      "handler": "collection.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/collection",
+      "handler": "collection.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/collection",
+      "handler": "collection.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
